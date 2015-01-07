@@ -43,6 +43,7 @@
     <Compile Include="Collections\DuplicateKeyNotAllowedException.cs" />
     <Compile Include="Collections\ICollectionEvents.cs" />
     <Compile Include="Collections\IQueue.cs" />
+    <Compile Include="ColorConsole.cs" />
     <Compile Include="Concurrency\Atomic.cs" />
     <Compile Include="ByteSize.cs" />
     <Compile Include="CharArrayExtensions.cs" />
@@ -60,6 +61,7 @@
       <DependentUpon>ErrorMessages.resx</DependentUpon>
     </Compile>
     <Compile Include="ExGen.cs" />
+    <Compile Include="IO\CharStream.cs" />
     <Compile Include="Match.cs" />
     <Compile Include="Maybe.Match.cs" />
     <Compile Include="MediciException.cs" />
