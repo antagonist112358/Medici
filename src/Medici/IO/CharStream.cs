@@ -39,7 +39,7 @@ namespace Medici.IO
         {
             var charBuffer = new List<char>(maxCharacters);
 
-            while (!EndOfStream && charBuffer.Count < maxCharacters)
+            while (!EndOfStream && charBuffer.Count <= maxCharacters)
             {
                 char nextChar = _buffer[_index];
 
